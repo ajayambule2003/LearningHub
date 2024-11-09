@@ -3,7 +3,7 @@
  include('session.php');
  
  
-                            if (isset($_POST['change'])) {
+                            if (isset($_POST['change'])) { 
                                
 
                                 $image = addslashes(file_get_contents($_FILES['image']['tmp_name']));
