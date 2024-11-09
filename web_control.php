@@ -10,7 +10,7 @@
                 $z1_text = "";
                 if($z1==$a3[$key])
                 {
-                    $z1_text="selected";
+                    $z1_text="selected"; 
                 }                
                 $options.= "<option $z1_text value=\"$a3[$key]\">$a3[$text]</option>";
             }
