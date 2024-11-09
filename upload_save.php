@@ -14,7 +14,7 @@ $uploaded_by = $uploaded_by_query_row['firstname']."".$uploaded_by_query_row['la
 
 $id_class=$_POST['id_class'];
 $get_id=$id_class;
-$name=$_POST['name'];
+$name=$_POST['name']; 
 
 
 //Function to sanitize values received from the form. Prevents SQL injection
