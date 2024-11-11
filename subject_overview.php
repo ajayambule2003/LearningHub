@@ -8,7 +8,7 @@
 				<?php include('subject_overview_link.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					  <!-- breadcrumb -->
+					  <!-- breadcrumb --> 
 										<?php $class_query = mysqli_query($conn,"select * from teacher_class
 										LEFT JOIN class ON class.class_id = teacher_class.class_id
 										LEFT JOIN subject ON subject.subject_id = teacher_class.subject_id
