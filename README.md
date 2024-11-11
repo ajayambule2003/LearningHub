@@ -8,7 +8,7 @@ Create, organize, and manage courses with ease, allowing educators to focus on w
 Student & Teacher Portals
 Dedicated spaces for students and teachers to access resources, submit assignments, track progress, and communicate effectively.
 
-Seamless Communication
+Seamless Communication 
 Built-in messaging and notification system to foster real-time communication between students, teachers, and administrators.
 
 Analytics & Reporting
