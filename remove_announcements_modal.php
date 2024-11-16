@@ -9,7 +9,7 @@
 			Are you sure you want to Remove this announcements on your class?
 		</div>
 		</div>
-	<div class="modal-footer">
+	<div class="modal-footer"> 
 	
 		<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i> Close</button>
 		
