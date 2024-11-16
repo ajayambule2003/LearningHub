@@ -15,6 +15,6 @@ Analytics & Reporting
 Gain insights into student performance, attendance, and engagement with visual reports and data-driven metrics.
 
 💻 Tech Stack
-Backend: PHP with Lavavel.
+Backend: PHP with Lavavel. 
 Frontend: HTML, CSS, JavaScript, React etc
 Database: SQL
