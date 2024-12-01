@@ -7,7 +7,7 @@
 				<?php include('quiz_sidebar_teacher.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					    <!-- breadcrumb -->	
+					    <!-- breadcrumb  -->	
 									<ul class="breadcrumb">
 										<?php
 										$school_year_query = mysqli_query($conn,"select * from school_year order by school_year DESC")or die(mysqli_error());
