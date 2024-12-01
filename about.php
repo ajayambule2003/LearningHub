@@ -5,7 +5,7 @@
             <div class="row-fluid">
                 <div class="span12" id="content">
                      <div class="row-fluid">
-                        <!-- block --> 
+                        <!-- block -->
                         <div class="block">
 								<div class="navbar navbar-inner block-header">
 									<div id="" class="muted pull-right"><a href="index.php"><i class="icon-arrow-left"></i> Back</a></div>
