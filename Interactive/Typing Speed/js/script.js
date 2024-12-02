@@ -6,12 +6,12 @@ mistakeTag = document.querySelector(".mistake span"),
 wpmTag = document.querySelector(".wpm span"),
 cpmTag = document.querySelector(".cpm span");
 
-let timer,
-maxTime = 60,
+let timer, 
+maxTime = 60, 
 timeLeft = maxTime,
-charIndex = mistakes = isTyping = 0;
+charIndex = mistakes = isTyping = 0; 
 
-function loadParagraph() {
+function loadParagraph() { 
     const ranIndex = Math.floor(Math.random() * paragraphs.length);
     typingText.innerHTML = "";
     paragraphs[ranIndex].split("").forEach(char => {
