@@ -11,18 +11,18 @@ maxTime = 60,
 timeLeft = maxTime,
 charIndex = mistakes = isTyping = 0; 
 
-function loadParagraph() { 
+function loadParagraph() {  
     const ranIndex = Math.floor(Math.random() * paragraphs.length);
     typingText.innerHTML = "";
     paragraphs[ranIndex].split("").forEach(char => {
         let span = `<span>${char}</span>`
         typingText.innerHTML += span;
     });
-    typingText.querySelectorAll("span")[0].classList.add("active");
+    typingText.querySelectorAll("span")[0].classList.add("active"); 
     document.addEventListener("keydown", () => inpField.focus());
     typingText.addEventListener("click", () => inpField.focus());
 }
-
+// 
 function initTyping() {
     let characters = typingText.querySelectorAll("span");
     let typedChar = inpField.value.split("")[charIndex];

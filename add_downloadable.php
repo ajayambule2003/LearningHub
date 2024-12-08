@@ -3,7 +3,7 @@
     <body id="class_div">
 		<?php include('navbar_teacher.php'); ?>
         <div class="container-fluid">
-            <div class="row-fluid">
+            <div class="row-fluid"> 
 				<?php include('teacher_add_downloadable_sidebar.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
